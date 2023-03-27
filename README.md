@@ -100,7 +100,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/citec-47/AWESOMEBOOK-NAV.git
+  git clone https://github.com/citec-47/AWESOME_MODULE.git
 ```
 
 
