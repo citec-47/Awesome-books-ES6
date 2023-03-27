@@ -1,0 +1,165 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.G-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.boundry_line {
+  border: 2.5px solid black;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+header {
+  top: 0.2rem;
+  left: 2.5vw;
+  right: 2.5vw;
+  position: fixed;
+}
+
+.header-hero,
+footer {
+  justify-content: space-between;
+  width: 95vw;
+  padding: 0.5rem;
+}
+
+.bar {
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.myHeadlist {
+  color: blue;
+}
+
+li + li {
+  border-left: 2px solid blue;
+  padding-left: 0.5rem;
+}
+
+.ourLocalDate {
+  width: max-content;
+  margin-left: auto;
+  margin-top: 0.2rem;
+  color: blue;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+.Allbookshop-bookStorage__heading {
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+.Allbookshop-bookStorage__books {
+  width: 90vw;
+}
+
+.Allbookshop-book {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.3rem;
+  padding-right: 1rem;
+}
+
+.Allbookshop-book__title,
+.Allbookshop-book__author {
+  text-transform: capitalize;
+}
+
+.forming button {
+  float: right;
+}
+
+.Allbookshop-book .Allbookshop-btn_rmv,
+.forming button {
+  padding: 0.1rem 0.3rem;
+  box-shadow: 3px 3px 3px black;
+}
+
+.Allbookshop-book button {
+  margin-left: auto;
+}
+
+.forming {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 8rem;
+  position: absolute;
+  visibility: hidden;
+}
+
+.forming > * {
+  margin-top: 1rem;
+}
+
+.forming input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.forming h2 {
+  text-align: center;
+}
+
+.forming h2 span {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+
+.errMsg {
+  color: red;
+}
+
+.myInformation {
+  position: absolute;
+  visibility: hidden;
+  width: 90vw;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.2rem;
+  left: 2.5vw;
+  right: 2.5vw;
+}
+
+.show {
+  position: static;
+  visibility: visible;
+}
+
+.hide_El {
+  position: absolute;
+  visibility: hidden;
+}
