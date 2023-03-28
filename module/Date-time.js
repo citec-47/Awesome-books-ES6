@@ -2,8 +2,8 @@
 
 const ourLocalDate = luxon.DateTime.local().toLocaleString(luxon.DateTime.DATE_MED);
 const { hour } = luxon.DateTime.local().c;
-const min = luxon.DateTime.local().c.minute;
-const sec = luxon.DateTime.local().c.second;
+const minit = luxon.DateTime.local().c.minute;
+const secnd = luxon.DateTime.local().c.second;
 export {
-  ourLocalDate, hour, min, sec,
+  ourLocalDate, hour, minit, secnd,
 };

@@ -33,13 +33,13 @@ export default class Allbookshop {
 
   giveOutBooks() {
     if (!bookStorage.length) {
-      document.querySelector('.Allbookshop-bookStorage__books').innerHTML = 'No books added';
+      document.querySelector('.Allbookshop-bookStorage__books').innerHTML = 'No books has been added';
     } else {
       let markup = '';
-      bookStorage.forEach((elem, iindex) => {
+      bookStorage.forEach((elemts, iindex) => {
         markup += `<div class="Allbookshop-book" style="background-color: ${iindex % 2 && 'rgb(225, 223, 223)'}">
-        <p class="Allbookshop-book__titleOfBooks">"${elem.titleOfBooks}"</p> <span> by </span>
-        <p class="Allbookshop-book__authorOfbooks">${elem.authorOfbooks}</p>    
+        <p class="Allbookshop-book__titleOfBooks">"${elemts.titleOfBooks}"</p> <span> by </span>
+        <p class="Allbookshop-book__authorOfbooks">${elemts.authorOfbooks}</p>    
         <button type="button" class="Allbookshop-btn_rmv" id=${iindex}>Remove</button>
     </div>`;
       });
